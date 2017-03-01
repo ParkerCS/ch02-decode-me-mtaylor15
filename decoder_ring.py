@@ -11,8 +11,8 @@ decode_me = [[[' ', 1], ['#', 8], [' ', 1], ['#', 8], [' ', 5], ['#', 3], [' ', 
 
 for j in range(len(decode_me)):
     for k in range(len(decode_me[j])):
-        for i in range(len(decode_me[j][k][1])):
-            print(decode_me[j][k][0], end = " ")
+        #for i in range(len(decode_me[j][k])):
+        print(decode_me[j][k][0] * decode_me[j][k][1], end = "")
     print()
 
 #I cant figure out why it wont print
